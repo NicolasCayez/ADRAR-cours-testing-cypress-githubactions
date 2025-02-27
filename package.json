@@ -1,0 +1,16 @@
+{
+  "name": "github_testing",
+  "version": "1.0.0",
+  "description": "Vous allez partir sur un projet tout neuf pour vous entrainer.\r Pour nous faciliter encore un peu plus la vie, nous allons utiliser un script qui va nous permettre de personnaliser nos divers éléments (nom de projet, variables d'environnements, ...).",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "auto_test": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
